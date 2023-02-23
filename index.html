@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        background-color: rgb(201, 224, 228);
+      }
+      h1 {
+        color: rgb(193, 34, 34);
+      }
+      .header {
+        background-color: rgb(245, 152, 217);
+        padding: 25px;
+        text-align: center;
+      }
+      .topnav {
+        background-color: rgb(68, 65, 65);
+        overflow: hidden;
+        font-family: Times New Roman;
+      }
+      .topnav a {
+        float: left;
+        display: block;
+        color: #ededed;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 16px;
+      }
+      .topnav a:hover {
+        color: rgb(17, 18, 17);
+        background-color: rgb(87, 160, 223);
+      }
+      .topnav a.active {
+        background-color: #82dcf3;
+        color: rgb(6, 6, 6);
+      }
+      .topnav input[type="text"] {
+        float: right;
+        padding: 6px;
+        border: 1px;
+        margin-top: 8px;
+        font-size: 16px;
+      }
+
+      .dropbtn {
+        background-color: rgb(68, 65, 65);
+        color: white;
+        padding: 14px 16px;
+        font-size: 16px;
+        font-family: times new roman;
+        border: none;
+      }
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+      .dropdown.dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: rgb(17, 18, 17);
+        padding: 14px 16px;
+        margin: 0;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        display: block;
+        float: none;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {
+        background-color: rgb(135, 225, 194);
+        color: white;
+      }
+      .dropbtn:hover {
+        color: rgb(17, 18, 17);
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown:hover .dropbtn {
+        background-color: rgb(87, 160, 223);
+      }
+      .searchbar {
+        margin-right: 1%;
+      }
+      .footer {
+        background-color: rgb(49, 5, 80);
+        color: aquamarine;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Home</title>
+  </head>
+  <body style="margin: 0%">
+    <div class="header">
+      <h1>WELCOME TO BK-TECH CONSULTING SERVICES</h1>
+      <h2 style="line-height: 0.05">
+        Justification Provides the Basis for Academic Contribution in Research
+      </h2>
+      <h3>
+        <marquee
+          ><i
+            >Shop 14, Kaduna State University Kaduna Tafawa Balewa Way</i
+          ></marquee
+        >
+      </h3>
+    </div>
+
+    <div class="topnav">
+      <a class="active" href="">Home</a>
+      <a href="">Downloads</a>
+      <a href="">Payments</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Hire a Writer<i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Assignment</a>
+          <a href="#">Business Plan</a>
+          <a href="#">Proposal</a>
+          <a href="#">Research Article</a>
+          <a href="#">Seminar Report</a>
+          <a href="#">Term Paper</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Project Topics<i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Undergraduate</a>
+          <a href="#">Post Graduate</a>
+          <a href="#">Doctorate Degree</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Programme <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">NCE</a>
+          <a href="#">OND</a>
+          <a href="#">HND</a>
+          <a href="#">BSC</a>
+          <a href="#">PGD</a>
+          <a href="#">MBA</a>
+          <a href="#">MSC</a>
+          <a href="#">PHD</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Institution<i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Monotechnic</a>
+          <a href="#">Polytechnic</a>
+          <a href="#">University</a>
+          <a href="#">Others</a>
+        </div>
+      </div>
+      <a href="">Blog</a>
+      <input class="searchbar" type="text" placeholder="search" />
+    </div>
+    <div class="images">
+      <img src="book3.jpeg" alt="book image" width="25%" height="25%" />
+      <img src="book2.jpeg" alt="book image" width="25%" height="25%" />
+      <video width="320" height="240">
+        <source src="teamwork.webm" type="video/webm" />
+      </video>
+    </div>
+    <div>
+      <p>Project Writing</p>
+    </div>
+    <center>
+      <div>
+        <p>Plagiarism Check</p>
+      </div>
+    </center>
+    <div>
+      <p>How to develop table of Content</p>
+    </div>
+    <div>
+      <center>
+        <footer class="footer">
+          <p>Author:BK-Tech Consulting</p>
+          <a style="line-height: 0.05" href="mailto:bktechconsulting@gmail.com"
+            >bktechconsulting@gmail.com</a
+          >
+        </footer>
+      </center>
+    </div>
+  </body>
+</html>
